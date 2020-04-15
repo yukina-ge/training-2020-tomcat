@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<web-app>
+	<servlet>
+		<servlet-name>helloServlet</servlet-name>
+		<servlet-class>HelloWorldController</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>studentServlet</servlet-name>
+		<servlet-class>StudentController</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>helloServlet</servlet-name>
+		<url-pattern>/hello</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>studentServlet</servlet-name>
+		<url-pattern>/student</url-pattern>
+	</servlet-mapping>
+</web-app>
